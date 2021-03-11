@@ -1,0 +1,31 @@
+{
+    "properties": {
+        "ari-href": {
+            "title": "ARI href",
+            "type": "string",
+            "format": "uri"
+        },
+        "ds-href": {
+            "title": "DealerSpike href",
+            "type": "string",
+            "format": "uri"
+        },
+        "ds-v6-href": {
+            "title": "DealerSpike V6 href",
+            "type": "string",
+            "format": "uri"
+        },
+        "ds-v7-href": {
+            "title": "DealerSpike V7 href",
+            "type": "string",
+            "format": "uri"
+        }
+    },
+    "required": [
+        "ari-href",
+        "ds-href",
+        "ds-v6-href",
+        "ds-v7-href"
+    ],
+    "type": "object"
+}
